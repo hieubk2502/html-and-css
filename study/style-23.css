@@ -1,0 +1,15 @@
+h1 {
+  color: blueviolet;
+  font-style: italic;
+  /* font chữ  */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  text-transform: uppercase;
+
+  text-align: center;
+
+  font-size: 20px;
+
+  /* độ nét */
+  opacity: 50%;
+}
