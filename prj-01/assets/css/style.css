@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* 1 rem = 10px 
+1.6 rem ~ 16px */
+
+/* khoi phuc co chu mac dinh theo rem */
+
+body {
+  font-style: 1.6rem;
+  font-family: "Sen", sans-serif;
+}
+
+body .logo {
+  width: 30px;
+}
+
+.header .body {
+  display: flex;
+}
+
+.nav ul {
+  display: flex;
+}
+/* Tu dong kéo sang left */
+.nav {
+  margin-left: auto;
+}
+.main-content {
+  width: 1174px;
+  max-width: calc(100% - 50px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav a {
+  font-size: 1.6rem;
+  color: blue;
+  background: #c9c2c2;
+}
