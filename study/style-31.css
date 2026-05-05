@@ -1,0 +1,12 @@
+.move_mouse:hover {
+  color: red;
+  font-size: 400px;
+}
+
+.move_mouse:link {
+  color: rgb(61, 48, 31);
+}
+
+.move_mouse:visited {
+  color: aqua;
+}

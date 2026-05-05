@@ -1,0 +1,13 @@
+h1 + h2 {
+  color: #f15151;
+}
+
+/* thẻ h3 đứng ngay sau class .demo */
+.demo + h3 {
+  color: #26a1b1;
+}
+
+/* Tất cả thẻ h4 đứng sau thẻ h1 */
+h1 ~ h4 {
+  color: aqua;
+}
