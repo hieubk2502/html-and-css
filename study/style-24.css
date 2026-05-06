@@ -7,3 +7,29 @@ input:checked ~ img {
 img {
   transition: 1.5s;
 }
+
+/* tác động lên tất cả thẻ p trong div */
+div p {
+  color: aliceblue;
+}
+
+/* tác động lên tất cả thẻ p là con trực tiếp của thẻ div */
+div > p {
+  color: antiquewhite;
+}
+
+  /* tác dộng lên tất cả thẻ p trong class .img */
+
+.img p {
+  color-scheme: initial;
+}
+
+/* select the first <p> elements that is placed imediately after div element */
+div + p {
+  align-self: start;
+}
+
+select all <a> element that is pre
+div ~a {
+
+}
