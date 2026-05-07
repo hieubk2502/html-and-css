@@ -25,6 +25,7 @@ body .logo {
   background-color: aliceblue;
 }
 
+
 .header.fixed {
   position: sticky;
   top: -28px;
@@ -226,3 +227,57 @@ body .logo {
 .hero strong:nth-child(2) {
   margin-left: 28px;
 }
+
+.heading-lv2 {
+  font-weight: 700;
+  line-height: 1.27;
+  font-size: 3.8rem;
+  color: #000;
+}
+
+.popular {
+  padding: 65px 0px;
+  background-color: aliceblue;
+  padding-top: 135px;
+}
+
+.popular-top .desc {
+  margin-top: 16px;
+  width: 458px;
+  font-size: 1.8rem;
+}
+
+.popular-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-top .controls {
+  display: flex;
+  gap: 18px;
+}
+
+.popular-top .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  border: 1px solid chocolate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
